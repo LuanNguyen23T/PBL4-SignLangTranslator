@@ -14,22 +14,22 @@
 - Thực hiện phép convolutional cho ảnh với các kernel 
 - Mỗi kernel sẽ học một đặc trưng khác nhau
 
-![Các Kernel và học đặc trưng tương ứng](CNN/Photos/Kernel.png)
+![Các Kernel và học đặc trưng tương ứng](Photos/Kernel.png)
 
-![Phép tính Convolutional](CNN/Photos/Phep-tinh-Convolutional.png)
+![Phép tính Convolutional](Photos/Phep-tinh-Convolutional.png)
 
 ### 2. Pooling layer
 - Giảm kích thước để giảm tính toán nhưng vẫn giữ đặc trưng quan trọng
 - Hai loại chính: Max pooling & Average pooling
 
-![Pooling Layer](CNN/Photos/Pooling-Layer.png)
+![Pooling Layer](Photos/Pooling-Layer.png)
 
 
 ### 3. Fully Connected Layer
 - Sau nhiều lớp conv + pooling, dữ liệu được chuyển thành vector cuối có kích thước (X, 1)
 - Các FCL kết hợp đăch trưng để phân loại
 
-![Fully Connected Layer](CNN/Photos/FLC.png)
+![Fully Connected Layer](Photos/FLC.png)
 
 
 
