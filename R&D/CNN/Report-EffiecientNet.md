@@ -2,7 +2,7 @@
 
 ## Mục lục
 - [Giới thiệu](#giới-thiệu)
-- [Kiến trúc EfficienNet](#kiến-trúc-EfficientNet)
+- [Kiến trúc EfficientNet](#kiến-trúc-EfficientNet)
 - [Kết luận](#kết-luận)
 
 ## Giới thiệu

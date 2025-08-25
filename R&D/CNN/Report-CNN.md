@@ -3,6 +3,9 @@
 ## Mục lục
 - [Giới thiệu](#giới-thiệu)
 - [Kiến trúc mô hình](#kiến-trúc-mô-hình)
+    - [1. Convolutioncal Layer](#1-convolutional-layer)
+    - [2. Pooling Layer](#2-pooling-layer)
+    - [3. Fully Connected Layer](#3-fully-connected-layer)
 
 ## Giới thiệu
 - CNN ra đời để giảm số lượng tham số và khai thác đặc trưng cục bộ ảnh (cạnh, góc, viền,...)
@@ -18,7 +21,7 @@
 
 ![Phép tính Convolutional](Photos/Phep-tinh-Convolutional.png)
 
-### 2. Pooling layer
+### 2. Pooling Layer
 - Giảm kích thước để giảm tính toán nhưng vẫn giữ đặc trưng quan trọng
 - Hai loại chính: Max pooling & Average pooling
 
