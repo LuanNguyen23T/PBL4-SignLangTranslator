@@ -3,6 +3,7 @@
 ## Mục lục
 - [Giới thiệu](#giới-thiệu)
 - [Kiến trúc EfficientNet](#kiến-trúc-EfficientNet)
+- [Thực nghiệm](#thực-nghiệm)
 - [Kết luận](#kết-luận)
 
 ## Giới thiệu
@@ -49,6 +50,17 @@
 - Mở rộng mô hình lên B1-7 bằng 2 cách: thay đổi 1 là φ, 2 là bộ số ⍺, β, Ɣ
 - Mô hình B6, B7 đòi hỏi GPU/TPU mạng
 
+## Thực nghiệm
+- Thiết lập
+    - Dataset: ImageNet (1.2 triệu ảnh huấn luyện, 50k ảnh validation).
+    - Môi trường: TPU v3-8, batch size 4096, optimizer RMSProp, learning rate decay.
+    - Huấn luyện: EfficientNet-B0 huấn luyện ~350 epochs.
+
+- Kết quả
+    - Top 1 Accuracy trên ImageNet
+        | B0  | B4  | B7  |
+        |-----|-----|-----|
+        |77.1%|83.0%|84.4%|
 
 ## Kết luận 
 - So với các mô hình khác, EfficientNet đạt state-of-the-art trên ImageNet với tham số ít hơn 10-20 lần so với ResNet/ResNeXt
